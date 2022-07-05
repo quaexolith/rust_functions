@@ -6,6 +6,17 @@ fn main() {
     yet_another_function(7);
 
     print_labeled_measurement(5, 'h');
+
+    let y = 6; // statement
+
+    println!("The value of y is: {y}");
+
+    let z = {
+        let x = 3;
+        x + 1
+    }; // expression
+
+    println!("The value of z is: {z}");
 }
 
 fn another_function() {
